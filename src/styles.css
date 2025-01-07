@@ -1,0 +1,54 @@
+/* Booking form styles */
+.booking-form {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+.booking-form h2 {
+    text-align: center;
+    color: #6a11cb;
+    margin-bottom: 20px;
+}
+
+.booking-form input,
+.booking-form button {
+    width: 100%; /* Ensures input fields fit within the container */
+    box-sizing: border-box; /* Prevents overflow due to padding */
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.booking-form input:focus {
+    border-color: #6a11cb;
+    outline: none;
+    box-shadow: 0 0 4px rgba(106, 17, 203, 0.3);
+}
+
+.booking-form button {
+    background-color: #6a11cb;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.booking-form button:hover {
+    background-color: #2575fc;
+    transform: translateY(-2px);
+}
+
+.booking-form button:active {
+    transform: translateY(0);
+}

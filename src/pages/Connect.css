@@ -1,0 +1,54 @@
+.itineraries-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #f9fafb;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .itineraries-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2563eb;
+} */
+
+.roadmap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .roadmap-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+} */
+
+/* .roadmap-step:hover {
+    transform: scale(1.02);
+} */
+
+.icon {
+    font-size: 2rem;
+    color: #2563eb;
+    flex-shrink: 0;
+}
+
+.details h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #1f2937;
+}
+
+.details p {
+    margin: 5px 0 0;
+    color: #4b5563;
+    white-space: pre-wrap;
+}

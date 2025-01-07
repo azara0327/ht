@@ -1,0 +1,100 @@
+.schedule-tracker {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, h4 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 15px;
+}
+
+.trip-dropdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.trip-dropdown label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #334155;
+}
+
+.trip-dropdown select {
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #1e293b;
+    font-size: 16px;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.task-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.task-form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.task-form button:hover {
+    background-color: #45a049;
+}
+
+.task-list ul, .expanded-tasks ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list li, .expanded-tasks li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    margin: 5px 0;
+    border-radius: 8px;
+    background: #f8fafc;
+}
+
+.expand-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.expand-button:hover {
+    background-color: #0073e6;
+}

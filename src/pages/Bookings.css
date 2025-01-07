@@ -1,0 +1,87 @@
+.booking-page {
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8fafc; /* Light neutral background */
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #e5e7eb; /* Subtle border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* Bright white background */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
+}
+
+.svg-container {
+    color: #1d4ed8; /* Vivid blue for icons */
+    margin-bottom: 10px;
+}
+
+.svg-icon {
+    width: 60px;
+    height: 60px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #1e293b; /* Dark slate blue text */
+}
+
+.form-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Bright white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #2563eb; /* Vibrant blue for the back button */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #1d4ed8; /* Slightly darker blue on hover */
+    transform: scale(1.05); /* Slight scaling effect */
+}
+
+/* Accessibility improvements */
+.card:focus-within, .card:focus {
+    outline: 2px solid #60a5fa; /* Light blue focus outline for accessibility */
+    outline-offset: 2px;
+}
